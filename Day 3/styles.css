@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0% auto;
+}
+
+.back{
+    background: #23424A;
+    color: white;
+}
+
+.intro{
+    padding: 5rem;
+    max-width: 750px;
+}
+
+a{
+
+    border-radius: 1.96875rem;
+    color: #072A2D;
+    background: #38CFD9;
+    padding: 1rem;
+    text-decoration: none;
+
+}
+
+p{
+    color: rgba(255, 255, 255, 0.85);
+    font-family: Roboto;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.188%;
+}
