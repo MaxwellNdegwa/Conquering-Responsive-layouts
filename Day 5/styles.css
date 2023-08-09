@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100&family=Roboto:wght@400;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+.container{
+    margin: 0% auto;
+    padding: 5%;
+    background-color: #23424A;
+    color: white;
+}
+
+.section{
+    width: 80%;
+    max-width: 1150px;
+}
+
+.intro{
+    width: 50%;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+p{
+    margin-bottom: 10%;
+    font-size: 1.3rem;
+}
+
+a{
+    border-radius: 2em ;
+    background-color: #38CFD9;
+    text-decoration: none;
+    color: #23424A;
+    padding: 1em 2.5em;
+}
