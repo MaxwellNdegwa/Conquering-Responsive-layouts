@@ -8,23 +8,19 @@
 body{
     font-family: 'Hanken Grotesk', sans-serif;
     font-family: 'Roboto', sans-serif;
-    margin: 0%;
+    margin: 0% auto;
 }
 
 .container{
-    margin: 0% auto;
+    width: 100%;
     padding: 5%;
     background-color: #23424A;
     color: white;
 }
 
-.section{
-    width: 80%;
-    max-width: 1150px;
-}
-
 .intro{
     width: 50%;
+    max-width: 700px;
 }
 
 h1{
@@ -34,8 +30,10 @@ h1{
 
 p{
     font-weight: 400;
-    margin-bottom: 10%;
     font-size: 1.3rem;
+}
+.intro-par{
+    margin-bottom: 10%;
 }
 
 a{
@@ -49,4 +47,20 @@ a{
 }
 a:hover{
     opacity: 0.7;
+}
+
+.container-2{
+    padding: 5%;
+}
+
+.row{
+    display: flex;
+    gap: 5%;
+    text-align: center;
+}
+
+.col{
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #87629A;
 }
